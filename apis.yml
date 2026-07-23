@@ -1,22 +1,70 @@
 aid: alien-labs
 name: Alien Labs
-description: Alien Labs is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alien Labs, Inc. was a San Francisco software startup founded by Cristian Strat, Mircea Pasoi
+  and Liana Dumitru, and a seed-stage portfolio company of Bloomberg Beta. Under the Alien Labs
+  banner the team shipped Summify, a social news digest acquired by Twitter in January 2012, and
+  later Memo — "the wiki that's always up-to-date" — a Slack-native team knowledge base that let
+  8,000+ teams star a Slack message to save it as a searchable note, edit rich-text and code-block
+  documents in context, and retrieve them with a /memo-find slash command. Memo stopped accepting
+  new signups on January 16, 2018 and shut down on March 16, 2018; most of the engineering team
+  joined Coinbase. The company operates no live developer portal, documentation, or public API
+  today, and this profile is retained as a historical network record rather than an active API
+  provider.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/233019?v=4
 url: https://raw.githubusercontent.com/api-evangelist/alien-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
+x-status: defunct
+x-status-detail: Memo shut down 2018-03-16; engineering team acquired by Coinbase. No live API surface.
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Defunct
+- Slack Apps
+- Knowledge Management
+- Team Collaboration
+- Note Taking
+- Search
+- Startups
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/alien-labs
+- type: Lifecycle
+  url: lifecycle/alien-labs-lifecycle.yml
+- type: LLMsTxt
+  url: llms/alien-labs-llms.txt
+- type: CrunchBase
+  url: https://www.crunchbase.com/organization/alien-labs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/alien-labs
+- type: Archive
+  url: https://web.archive.org/web/20180401/https://memo.ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1

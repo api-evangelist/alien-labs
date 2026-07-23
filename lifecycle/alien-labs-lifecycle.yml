@@ -1,0 +1,77 @@
+generated: '2026-07-19'
+method: searched
+source: https://web.archive.org/web/20180401/https://memo.ai/
+company_status: defunct
+summary: >-
+  Alien Labs, Inc. shipped two consumer/team products and no public API. Both products were
+  retired following talent acquisitions. There is no live developer portal, documentation,
+  status page, or versioning policy to capture.
+products:
+- name: Summify
+  description: Social news digest that summarized a user's Twitter timeline and Facebook newsfeed.
+  active: false
+  outcome: acquired
+  acquirer: Twitter
+  acquired: '2012-01-19'
+  shutdown_note: Product wound down shortly after the acquisition.
+  evidence: https://techcrunch.com/2012/01/19/twitter-acquires-summify/
+- name: Memo
+  description: >-
+    Slack-native team wiki / knowledge base — star a Slack message to save it as a note,
+    rich-text and code-block editor, boards, search, auto-reminders, and a /memo-find
+    slash command. Reported 8,000+ teams at shutdown.
+  active: false
+  outcome: shutdown
+  homepage: https://memo.ai
+  signups_closed: '2018-01-16'
+  shutdown: '2018-03-16'
+  team_acquired_by: Coinbase
+  evidence: https://web.archive.org/web/20180401/https://memo.ai/
+api_surface:
+  present: false
+  notes: >-
+    No public API, OpenAPI/AsyncAPI spec, SDK, CLI, or developer documentation was found on the
+    company's GitHub organization, in package registries, or in archived versions of memo.ai.
+    Memo integrated with Slack as a Slack app (consumer of the Slack API), not as an API provider.
+status_page: null
+deprecation: null
+sla: null
+versioning: null
+domains:
+- domain: memo.ai
+  owned_by_company: false
+  observed: '2026-07-19'
+  note: >-
+    Domain no longer controlled by Alien Labs; currently resolves to an unrelated parked
+    "Memo.AI / Deep Technology" page (HTTP 200). Historical content available via the Wayback Machine.
+- domain: alienlabs.io
+  owned_by_company: false
+  observed: '2026-07-19'
+  note: >-
+    Unrelated. Live splash page titled "Alien Labs" (HTTP 200) with zero Wayback Machine
+    snapshots, so it post-dates the company. Not attributed to Alien Labs, Inc.
+- domain: alienlabs.com
+  owned_by_company: false
+  observed: '2026-07-19'
+  note: Parked domain lander (HTTP 200 redirect to /lander).
+github:
+  org: https://github.com/alien-labs
+  display_name: Memo.AI
+  public_repos: 17
+  first_party_repos:
+  - https://github.com/alien-labs/drupal-summify
+  - https://github.com/alien-labs/vanilla-summify
+  - https://github.com/alien-labs/vanilla2-summify
+  note: >-
+    Only three first-party repositories, all 2010-era Summify embed plugins for Drupal and
+    Vanilla Forums. The remaining 14 repositories are forks of third-party libraries.
+    Last org update 2022-04-11.
+people:
+- name: Cristian Strat
+  role: co-founder
+- name: Mircea Pasoi
+  role: co-founder / CEO
+- name: Liana Dumitru
+  role: co-founder
+investors:
+- bloomberg-beta
