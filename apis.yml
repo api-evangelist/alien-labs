@@ -50,7 +50,7 @@ tags:
 - Company
 - Defunct
 - Slack Apps
-- Knowledge-Management
+- Knowledge Management
 - Team Collaboration
 - Note Taking
 - Search
@@ -64,6 +64,7 @@ tags_raw:
 - Note Taking
 - Search
 - Startups
+- Knowledge-Management
 apis: []
 common:
 - type: GitHubOrganization
